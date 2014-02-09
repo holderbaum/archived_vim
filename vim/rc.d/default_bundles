@@ -4,5 +4,6 @@ NeoBundle 'wincent/Command-T', {
                              \   }
                              \ }
 
+NeoBundle 'wikitopian/hardmode'
 
 "" vim: set ft=vim:

@@ -8,4 +8,6 @@ else
   Src console_basics
 end
 
+Src hardmode
+
 "" vim: set ft=vim:
