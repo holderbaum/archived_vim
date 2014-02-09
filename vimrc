@@ -6,6 +6,11 @@ endif
 call neobundle#rc(expand('~/.vim/bundle/'))
 NeoBundleFetch 'Shougo/neobundle.vim'
 
+NeoBundle 'wincent/Command-T', {
+                             \   'build' : {
+                             \     'unix' : 'cd ruby/command-t && ruby extconf.rb && make'
+                             \   }
+                             \ }
 
 " Required:
 filetype plugin indent on
