@@ -9,5 +9,3 @@ else
 end
 
 Src hardmode
-
-"" vim: set ft=vim:

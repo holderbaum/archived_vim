@@ -11,5 +11,3 @@ set smartindent                 " be smarter, lang specific intendation
 
 set number
 set numberwidth=3
-
-"" vim: set ft=vim:

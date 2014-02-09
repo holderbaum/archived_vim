@@ -8,5 +8,3 @@ set textwidth=80
 
 set nobackup                    " no backup file, we are using git for that
 set noswapfile
-
-"" vim: set ft=vim:

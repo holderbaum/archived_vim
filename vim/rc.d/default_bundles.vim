@@ -3,6 +3,3 @@ NeoBundle 'wincent/Command-T', {
                              \     'unix' : 'cd ruby/command-t && ruby extconf.rb && make'
                              \   }
                              \ }
-
-
-"" vim: set ft=vim:
