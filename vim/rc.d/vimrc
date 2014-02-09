@@ -1,6 +1,6 @@
-Src basics
-
 Src default_bundles
+
+Src basics
 
 if has("gui_running")
   Src gui_basics
