@@ -11,3 +11,5 @@ set smartindent                 " be smarter, lang specific intendation
 
 set number
 set numberwidth=3
+
+let g:syntastic_auto_loc_list=1
