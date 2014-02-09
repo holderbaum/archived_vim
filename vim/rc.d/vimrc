@@ -2,4 +2,10 @@ Src basics
 
 Src default_bundles
 
+if has("gui_running")
+  Src gui_basics
+else
+  Src console_basics
+end
+
 "" vim: set ft=vim:
