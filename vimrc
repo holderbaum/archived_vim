@@ -13,8 +13,7 @@ endfu
 
 command! -nargs=1 Src call SrcFile(<f-args>)
 
-Src basics
-Src default_bundles
+Src vimrc
 
 " If there are uninstalled bundles found on startup,
 " this will conveniently prompt you to install them.
