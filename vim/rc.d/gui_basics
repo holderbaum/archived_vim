@@ -4,4 +4,6 @@ set guioptions-=r  "remove right-hand scroll bar
 
 set guifont=Monospace\ 11
 
+colorscheme twilight
+
 "" vim: set ft=vim:
