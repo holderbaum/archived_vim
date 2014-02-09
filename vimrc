@@ -7,7 +7,7 @@ call neobundle#rc(expand('~/.vim/bundle/'))
 NeoBundleFetch 'Shougo/neobundle.vim'
 
 fu! SrcFile(file)
-  let path = '~/.vim/rc.d/' . a:file
+  let path = '~/.vim/rc.d/' . a:file . '.vim'
   :exe 'source ' . fnameescape(path)
 endfu
 
