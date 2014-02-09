@@ -1,5 +1,3 @@
-NeoBundle 'tpope/vim-fugitive'
-
 nmap <leader>gst :Gstatus<CR>                                                       
 nmap <leader>ga :Gwrite<CR>                                                         
 nmap <leader>gc :Gcommit<CR>                                                        

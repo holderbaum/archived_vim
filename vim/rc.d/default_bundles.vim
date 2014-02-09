@@ -3,3 +3,9 @@ NeoBundle 'wincent/Command-T', {
                              \     'unix' : 'cd ruby/command-t && ruby extconf.rb && make'
                              \   }
                              \ }
+
+NeoBundle 'tpope/vim-fugitive'
+NeoBundle 'wikitopian/hardmode'
+NeoBundle 'bling/vim-airline'
+NeoBundle 'tpope/vim-markdown'
+NeoBundle 'bilalq/lite-dfm'

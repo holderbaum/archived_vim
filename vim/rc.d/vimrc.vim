@@ -5,6 +5,7 @@ Src statusline
 Src search
 
 Src git
+Src zen
 
 if has("gui_running")
   Src gui_basics
