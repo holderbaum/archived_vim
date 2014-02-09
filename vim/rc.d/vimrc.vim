@@ -1,6 +1,7 @@
 Src default_bundles
 
 Src basics
+Src statusline
 
 if has("gui_running")
   Src gui_basics
