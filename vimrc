@@ -12,8 +12,7 @@ NeoBundle 'wincent/Command-T', {
                              \   }
                              \ }
 
-" Required:
-filetype plugin indent on
+source ~/.vim/rc.d/basics
 
 " If there are uninstalled bundles found on startup,
 " this will conveniently prompt you to install them.
