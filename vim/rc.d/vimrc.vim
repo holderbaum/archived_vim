@@ -4,6 +4,8 @@ Src basics
 Src statusline
 Src search
 
+Src git
+
 if has("gui_running")
   Src gui_basics
 else
