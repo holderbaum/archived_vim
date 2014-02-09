@@ -9,3 +9,5 @@ NeoBundle 'wikitopian/hardmode'
 NeoBundle 'bling/vim-airline'
 NeoBundle 'tpope/vim-markdown'
 NeoBundle 'bilalq/lite-dfm'
+
+NeoBundle 'scrooloose/syntastic'
