@@ -12,7 +12,14 @@ NeoBundle 'wincent/Command-T', {
                              \   }
                              \ }
 
-source ~/.vim/rc.d/basics
+fu! SrcFile(file)
+  let path = '~/.vim/rc.d/' . a:file
+  :exe 'source ' . fnameescape(path)
+endfu
+
+command! -nargs=1 Src call SrcFile(<f-args>)
+
+Src basics
 
 " If there are uninstalled bundles found on startup,
 " this will conveniently prompt you to install them.
