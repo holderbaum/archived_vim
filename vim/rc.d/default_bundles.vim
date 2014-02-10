@@ -7,8 +7,14 @@ NeoBundle 'wincent/Command-T', {
 NeoBundle 'tpope/vim-fugitive'
 NeoBundle 'wikitopian/hardmode'
 NeoBundle 'bling/vim-airline'
-NeoBundle 'tpope/vim-markdown'
 NeoBundle 'bilalq/lite-dfm'
+
+
+NeoBundleLazy 'tpope/vim-markdown', {
+                                    \   'autoload' : {
+                                    \     'filetypes' : ['markdown'],
+                                    \   },
+                                    \ }
 
 NeoBundleLazy 'scrooloose/syntastic', {
                                     \   'autoload' : {
