@@ -7,6 +7,8 @@ Src search
 Src git
 Src zen
 
+Src delimitmate
+
 if has("gui_running")
   Src gui_basics
 else
