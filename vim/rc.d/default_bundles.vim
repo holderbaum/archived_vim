@@ -10,6 +10,8 @@ NeoBundle 'bling/vim-airline'
 NeoBundle 'bilalq/lite-dfm'
 NeoBundle 'edsono/vim-matchit'
 NeoBundle 'Raimondi/delimitMate'
+NeoBundle 'vim-ruby/vim-ruby'
+NeoBundle 'tpope/vim-endwise'
 
 
 NeoBundleLazy 'tpope/vim-markdown', {
