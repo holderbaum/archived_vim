@@ -13,4 +13,3 @@ else
   Src console_basics
 end
 
-Src hardmode
