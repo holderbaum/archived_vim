@@ -12,6 +12,7 @@ NeoBundle 'edsono/vim-matchit'
 NeoBundle 'Raimondi/delimitMate'
 NeoBundle 'vim-ruby/vim-ruby'
 NeoBundle 'tpope/vim-endwise'
+NeoBundle 'tpope/vim-vinegar'
 
 
 NeoBundleLazy 'tpope/vim-markdown', {
