@@ -8,6 +8,7 @@ Src git
 Src zen
 
 Src delimitmate
+Src disabled_keys
 
 if has("gui_running")
   Src gui_basics
