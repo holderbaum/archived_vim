@@ -13,6 +13,7 @@ NeoBundle 'Raimondi/delimitMate'
 NeoBundle 'vim-ruby/vim-ruby'
 NeoBundle 'tpope/vim-endwise'
 NeoBundle 'tpope/vim-vinegar'
+NeoBundle 'vitaly/vim-gitignore'
 
 
 NeoBundleLazy 'tpope/vim-markdown', {
