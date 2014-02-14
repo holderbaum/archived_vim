@@ -5,7 +5,7 @@ NeoBundle 'wincent/Command-T', {
                              \ }
 
 NeoBundle 'tpope/vim-fugitive'
-NeoBundle 'kbarrette/mediummode'
+NeoBundle 'wikitopian/hardmode'
 NeoBundle 'bling/vim-airline'
 NeoBundle 'bilalq/lite-dfm'
 NeoBundle 'edsono/vim-matchit'
