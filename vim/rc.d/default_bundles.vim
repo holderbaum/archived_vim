@@ -14,6 +14,7 @@ NeoBundle 'vim-ruby/vim-ruby'
 NeoBundle 'tpope/vim-endwise'
 NeoBundle 'tpope/vim-vinegar'
 NeoBundle 'vitaly/vim-gitignore'
+NeoBundle 'Shougo/neocomplete.vim'
 
 
 NeoBundleLazy 'tpope/vim-markdown', {
