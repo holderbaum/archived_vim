@@ -12,4 +12,6 @@ set smartindent                 " be smarter, lang specific intendation
 set number
 set numberwidth=3
 
+set tags+=tags;			" recurse into parent directories
+
 let g:syntastic_auto_loc_list=1
