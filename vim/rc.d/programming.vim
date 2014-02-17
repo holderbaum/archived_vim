@@ -15,3 +15,11 @@ set numberwidth=3
 set tags+=tags;			" recurse into parent directories
 
 let g:syntastic_auto_loc_list=1
+
+nnoremap <leader>[ :cprev<CR>
+nnoremap <leader>] :cnext<CR>
+
+" Automatically open, but do not go to (if there are errors) the quickfix /
+" location list window, or close it when is has become empty.
+autocmd QuickFixCmdPost [^l]* nested cwindow
+autocmd QuickFixCmdPost    l* nested lwindow
