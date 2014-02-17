@@ -8,7 +8,9 @@ nmap <leader>c :w<CR>:call RubyTesting(expand('%'))<CR>
 nmap <leader>m :w<CR>:call RunLastMake()<CR>
 
 function! InitLastMake()
-	let s:next_makeprg = 'bundle\ exec\ rake'
+	if !exists("s:next_makeprg")
+		let s:next_makeprg = 'bundle\ exec\ rake'
+	endif
 endfunction
 
 function! RubyTesting(...)
