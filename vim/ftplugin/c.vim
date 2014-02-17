@@ -23,5 +23,7 @@ function! DefineCMakeBuildDir(build_dir)
 	:exe 'set makeprg=(' . makecmd . '\&&\ ctest\ --output-on-failure)'
 endfunction
 
+NeoCompleteEnable
+
 autocmd QuickFixCmdPost [^l]* nested cwindow
 autocmd QuickFixCmdPost    l* nested lwindow
