@@ -15,7 +15,7 @@ function! RubyTesting(...)
 	if a:0 == 0
 		let s:last_make = 'bundle\ exec\ rake'
 	else
-		let s:last_make = 'RUBYLIB=lib:test:spec\ ruby\ -rminitest/autorun\ ' . a:1
+		let s:last_make = 'RUBYLIB=lib:test:spec\ bundle\ exec\ ruby\ -rminitest/autorun\ ' . a:1
 	endif
 
 	call RunLastMake()
