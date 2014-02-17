@@ -8,21 +8,21 @@ nmap <leader>c :w<CR>:call RubyTesting(expand('%'))<CR>
 nmap <leader>m :w<CR>:call RunLastMake()<CR>
 
 function! InitLastMake()
-	let g:next_makeprg = 'bundle\ exec\ rake'
+	let s:next_makeprg = 'bundle\ exec\ rake'
 endfunction
 
 function! RubyTesting(...)
 	if a:0 == 0
-		let g:next_makeprg = 'bundle\ exec\ rake'
+		let s:next_makeprg = 'bundle\ exec\ rake'
 	else
-		let g:next_makeprg = 'RUBYLIB=lib:test:spec\ bundle\ exec\ ruby\ -rminitest/autorun\ ' . a:1
+		let s:next_makeprg = 'RUBYLIB=lib:test:spec\ bundle\ exec\ ruby\ -rminitest/autorun\ ' . a:1
 	endif
 
 	call RunLastMake()
 endfunction
 
 function! RunLastMake()
-	:exe 'set makeprg=' . g:next_makeprg
+	:exe 'set makeprg=' . s:next_makeprg
 	silent make|redraw!
 endfunction
 
