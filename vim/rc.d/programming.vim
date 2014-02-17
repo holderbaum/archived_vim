@@ -1,4 +1,5 @@
 set listchars=tab:▸\ ,trail:.,extends:<,precedes:>,eol:·,nbsp:⋅
+set list
 set colorcolumn=81              " show line on the 81th char column
 set nowrap                      " don't wrap lines
 set wrapmargin=0
