@@ -15,6 +15,7 @@ NeoBundle 'tpope/vim-endwise'
 NeoBundle 'tpope/vim-vinegar'
 NeoBundle 'vitaly/vim-gitignore'
 NeoBundle 'Shougo/neocomplete.vim'
+NeoBundle 'altercation/vim-colors-solarized'
 
 
 NeoBundleLazy 'tpope/vim-markdown', {
