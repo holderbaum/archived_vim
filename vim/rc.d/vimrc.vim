@@ -8,6 +8,7 @@ Src git
 Src zen
 
 Src delimitmate
+Src netrw
 
 if has("gui_running")
   Src gui_basics
