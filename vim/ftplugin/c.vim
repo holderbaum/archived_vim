@@ -21,6 +21,8 @@ function! DefineCMakeBuildDir(build_dir)
 	:exe 'set makeprg=(' . s:makecmd . '\&&\ ctest\ --output-on-failure)'
 endfunction
 
+set errorformat+=%EThe\ following\ tests\ FAILED:,%C%m,%Z
+
 NeoCompleteEnable
 
 autocmd BufEnter <buffer> :RainbowLoad
