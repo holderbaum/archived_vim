@@ -16,9 +16,9 @@ nnoremap <leader>m :w<CR>:silent make\|redraw!<CR>
 nnoremap <leader>ncm :call DefineCMakeBuildDir('../build')\|redraw!<CR>
 
 function! DefineCMakeBuildDir(build_dir)
-	let target = fnamemodify(getcwd(), ':t')
-	let makecmd = 'cd\ ' . getcwd() . '/' . a:build_dir . '/' . target . '\ &&\ make>/dev/null' 
-	:exe 'set makeprg=(' . makecmd . '\&&\ ctest\ --output-on-failure)'
+	let s:target = fnamemodify(getcwd(), ':t')
+	let s:makecmd = 'cd\ ' . getcwd() . '/' . a:build_dir . '/' . s:target . '\ &&\ make>/dev/null'
+	:exe 'set makeprg=(' . s:makecmd . '\&&\ ctest\ --output-on-failure)'
 endfunction
 
 NeoCompleteEnable
