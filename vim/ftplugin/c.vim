@@ -22,3 +22,5 @@ function! DefineCMakeBuildDir(build_dir)
 endfunction
 
 NeoCompleteEnable
+
+autocmd BufEnter <buffer> :RainbowLoad
