@@ -22,6 +22,7 @@ function! DefineCMakeBuildDir(build_dir)
 endfunction
 
 set errorformat+=%EThe\ following\ tests\ FAILED:,%C%m,%Z
+set errorformat+=%f:(.text%.%#):\ %m
 
 NeoCompleteEnable
 
