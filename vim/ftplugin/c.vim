@@ -25,4 +25,7 @@ set errorformat+=%EThe\ following\ tests\ FAILED:,%C%m,%Z
 
 NeoCompleteEnable
 
-autocmd BufEnter <buffer> :RainbowLoad
+autocmd BufEnter <buffer> :RainbowParenthesesActivate
+autocmd BufEnter <buffer> :RainbowParenthesesLoadRound
+autocmd BufEnter <buffer> :RainbowParenthesesLoadBraces
+autocmd BufEnter <buffer> :RainbowParenthesesLoadSquare

@@ -15,7 +15,7 @@ NeoBundle 'tpope/vim-endwise'
 NeoBundle 'vitaly/vim-gitignore'
 NeoBundle 'Shougo/neocomplete.vim'
 NeoBundle 'altercation/vim-colors-solarized'
-NeoBundle 'oblitum/rainbow'
+NeoBundle 'kien/rainbow_parentheses.vim'
 
 
 NeoBundleLazy 'tpope/vim-markdown', {
