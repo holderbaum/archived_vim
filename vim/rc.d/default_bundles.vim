@@ -18,6 +18,7 @@ NeoBundle 'altercation/vim-colors-solarized'
 NeoBundle 'kien/rainbow_parentheses.vim'
 NeoBundle 'digitaltoad/vim-jade'
 NeoBundle 'kchmck/vim-coffee-script'
+NeoBundle 'wavded/vim-stylus'
 
 
 NeoBundleLazy 'tpope/vim-markdown', {
