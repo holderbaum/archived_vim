@@ -1,6 +1,7 @@
 "" General
 set number	" Show line numbers
 set showbreak=+++ 	" Wrap-broken line prefix
+colorscheme solarized   " Enable solarized colorscheme
 set textwidth=100	" Line wrap (number of cols)
 set showmatch	" Highlight matching brace
 set spell	" Enable spell-checking
