@@ -25,3 +25,6 @@ set undolevels=1000	" Number of undo levels
 set backspace=indent,eol,start	" Backspace behaviour
 
 syntax on
+" List whitespace characters
+set listchars=eol:$,tab:>·,trail:~,extends:>,precedes:<,space:·
+set list
