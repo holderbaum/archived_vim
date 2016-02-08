@@ -1,5 +1,6 @@
-colorscheme solarized   " Enable solarized colorscheme
 syntax on               " Enable syntax highlighting
+set background=dark
+colorscheme solarized   " Enable solarized colorscheme
 
 set number              " Show line numbers
 set showbreak=+++       " Wrap-broken line prefix
