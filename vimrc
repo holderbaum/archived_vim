@@ -1,5 +1,5 @@
 syntax on               " Enable syntax highlighting
-set background=dark
+set background=light
 colorscheme solarized   " Enable solarized colorscheme
 
 set number              " Show line numbers
